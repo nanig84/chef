@@ -1,0 +1,33 @@
+Goutham,
+
+I have reviewed the document for chef.  The propose of the document is for an admin to pick it up and know how to use chef and deploy changes to the dsw hosts.
+So have to presume the user knows nothing.
+
+•	Can you construct the document in the following way.
+o	High level overview
+o	The components involved. (cookbook, nodes, recipes etc)
+o	Getting user setup (installing, configuring the applictions and where to install them?)
+o	Server dependencies before chef can be run on node (I can provide you this info) (/app /opt size etc)
+o	Zones, environments, zones (currently) 
+o	How to write recipes (best practices, etc)
+o	How to deploy to chef service
+o	Flow diagram of process
+o	Troubleshooting  / lessons learned
+
+•	What are cookbooks, recipes, nodes? (examples)
+•	What is Jenkins?
+•	What is a hook in git? Why do I need it, how do I create it
+•	How do you install chef client? Where is installation files.
+•	Chef commands.
+•	Difference between test and prod
+•	How do I test and where do I test?
+•	Chef client is always running on the nodes, can you highlight and example is more.
+•	Is there any Reporting? 
+•	What happens if a deployment fails, how can I tell?
+•	How do I manage nodes, how do I know what nodes are configed with chef
+•	How do I add a new recipe?
+•	How do I change a recipe
+•	How do I add / remove nodes
+
+•	Section: adding new server as chef client
+“Navigate to desired cookbook (optum_mapr or optum_dsi_asc)” – how do I naviagate? Where is it?
